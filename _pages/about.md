@@ -20,3 +20,5 @@ social: false  # includes social icons at the bottom of the page
 I am an experienced Staff Research Scientist (Team Lead) working on research and development of LLM applications and novel metrics with eye tracking and movement telemetry data in virtual reality trainings. I work cross-functionally to support product development, mentor team members, and provide consultations to the customers. My personal projects focused on empirical VR research with Prof. Andrea Stevenson Won from Virtual Embodiment Lab at Cornell University.
 
  [Google Scholar](https://scholar.google.com/citations?hl=en&user=vpsl32UAAAAJ&view_op=list_works&sortby=pubdate).
+ Email: `yiluaq26j@gmail.com`
+ Phone: `614-286-7202`
