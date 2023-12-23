@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <b>Large Language Models. Human-AI Collaboartion. Virtual Reality.</b>
 
