@@ -1,81 +1,42 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Prompt Engineering
+description: Experiment different prompt strategies
 img: assets/img/12.jpg
 importance: 1
 category: work
 related_publications: einstein1956investigations, einstein1950meaning
 ---
+## Goals
+- Review existing prompt engineering best practices and techniques to large language models (LLMs)
+- Apply the prompt engineering for a classification task
+- Evaluate the results and iterate based on the findings
+- Discuss the limitations and next steps
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Review prompt engineering techniques
+Many prompt engineering techniques have been explored in order to understand how to write an effective prompt for LLMs to produce a desired output for users.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Some universal best practices have been mentioned in many different sources. For example:
+- OpenAI guidance <a href="https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api">here</a>
+- FlowGPT guidance <a href="https://guide.flowgpt.com/engineering/1basics/2general-tips">here</a>
+- Learning prompt guide <a href="https://learnprompting.org/docs/intro">here</a>
+- Prompt engineering guide <a href="https://learnprompting.org/docs/intro">here</a>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+FlowGPT also introduced a couple frameworks on how to structure a prompt with different components. For example:
+- Elavis Saravia framework: The prompt will include the following 4 components: instruction, context, input data, and output indicator.  
+- CRISPE framework: The prompt will include the following 5 components: capacity and role, insight, statement, personality, and experiment.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Additionally, prompt optimization tools such as PromptPerfect and Automatic Prompt Engineer (Zhou, et al., 2023) can directly produce an optimized prompt based on the user input.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+In this project, I will apply these existing prompt best practices, techniques and frameworks on a classification task that will be introduced in the section below. And then evaluate the effectiveness and discuss the next steps.
+
+## Classification task introduction
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Experimenting different prompting techniques to classification
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Results
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+
+## Discussion: Prompt Library or Prompt as a service
