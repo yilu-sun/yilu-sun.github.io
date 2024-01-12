@@ -23,10 +23,10 @@ Some universal best practices have been mentioned in many different sources. For
 - Prompt engineering guide <a href="https://learnprompting.org/docs/intro">here</a>
 
 FlowGPT also introduced a couple frameworks on how to structure a prompt with different components. For example:
-- Elavis Saravia framework: The prompt will include the following 4 components: instruction, context, input data, and output indicator.  
-- CRISPE framework: The prompt will include the following 5 components: capacity and role, insight, statement, personality, and experiment.
+- **Elavis Saravia framework**: The prompt will include the following 4 components: instruction, context, input data, and output indicator.  
+- **CRISPE framework**: The prompt will include the following 5 components: capacity and role, insight, statement, personality, and experiment.
 
-Additionally, prompt optimization tools such as PromptPerfect and Automatic Prompt Engineer (Zhou, et al., 2023) can directly produce an optimized prompt based on the user input.
+Additionally, prompt optimization tools such as <a href="https://promptperfect.jina.ai/">PromptPerfect</a> and <a href="https://sites.google.com/view/automatic-prompt-engineer">Automatic Prompt Engineer</a> (Zhou, et al., 2023) can directly produce an optimized prompt based on the user input.
 
 In this project, I will apply these existing prompt best practices, techniques and frameworks on a classification task that will be introduced in the section below. And then evaluate the effectiveness and discuss the next steps.
 
@@ -34,7 +34,7 @@ In this project, I will apply these existing prompt best practices, techniques a
 
 
 ## Experimenting different prompting techniques to classification
-
+Due to cost, all the experiments in this project is using GPT 3.5.
 
 ## Results
 
